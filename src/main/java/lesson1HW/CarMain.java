@@ -15,11 +15,11 @@ public abstract class CarMain {
     public  final void carBodyType(){           // тип кузова у всех машин - купе
         System.out.println(model + " car body type: Сoupe");
     }
-    public abstract void keylessEntry();        // изменяемая опция - безключевой доступ, ответ да или нет
-
-    public abstract void transmission();        // изменяемый метод для определения коробки передачь, автомат или ручная
-
-    public abstract void brakeOnCar();          // изменяемый метод для определения тормозов на машине, дисковые или керамика
+//    public abstract void keylessEntry();        // изменяемая опция - безключевой доступ, ответ да или нет
+//
+//    public abstract void transmission();        // изменяемый метод для определения коробки передачь, автомат или ручная
+//
+//    public abstract void brakeOnCar();          // изменяемый метод для определения тормозов на машине, дисковые или керамика
 
     public String getBrand() {
         return brand;

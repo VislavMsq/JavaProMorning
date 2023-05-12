@@ -8,6 +8,7 @@ public class Duck {
     public void fly(){
         System.out.println("fly");
     }
+
     public void swim(){
         System.out.println("swim");
     }

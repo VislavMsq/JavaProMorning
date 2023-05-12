@@ -1,6 +1,6 @@
 package lesson1HW;
 
-public class Audi extends CarMain{
+public class Audi extends CarMain implements CarInit{
     public Audi(String brand, String model) {
         super(brand, model);
     }
